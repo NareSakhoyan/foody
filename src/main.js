@@ -7,22 +7,26 @@ import { createVuetify } from 'vuetify'
 import * as components from 'vuetify/components'
 import * as directives from 'vuetify/directives'
 
-// VueFire
-import { VueFire, VueFireAuth } from 'vuefire'
+import { createRouter, createWebHistory } from 'vue-router'
 
 import { firebaseApp } from './firebase.js'
+import routes from './routes'
 
 const vuetify = createVuetify({
   components,
-  directives,
+  directives
 })
 
-App.use(VueFire, {
-  // imported above but could also just be created here
-  firebaseApp,
-  modules: [
-    // we will see other modules later on
-    VueFireAuth(),
-  ],
+const router = createRouter({
+  history: createWebHistory(),
+  routes
 })
-createApp(App).use(vuetify).mount('#app')
+
+const app = createApp(App)
+app.use(router)
+
+// Now the app has started!
+console.log(firebaseApp);
+
+app.use(vuetify)
+app.mount('#app')
