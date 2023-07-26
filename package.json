@@ -12,7 +12,7 @@
   "dependencies": {
     "firebase": "^10.0.0",
     "vue": "^3.3.4",
-    "vuefire": "^3.1.8",
+    "vue-router": "^4.2.4",
     "vuetify": "^3.3.9"
   },
   "devDependencies": {
