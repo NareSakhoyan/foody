@@ -1,0 +1,86 @@
+{
+  "hash": "5abc5cd9",
+  "browserHash": "cd7ebd57",
+  "optimized": {
+    "vue": {
+      "src": "../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "f14ef484",
+      "needsInterop": false
+    },
+    "vuetify": {
+      "src": "../../node_modules/vuetify/lib/framework.mjs",
+      "file": "vuetify.js",
+      "fileHash": "5d692731",
+      "needsInterop": false
+    },
+    "vuetify/components": {
+      "src": "../../node_modules/vuetify/lib/components/index.mjs",
+      "file": "vuetify_components.js",
+      "fileHash": "5ddac246",
+      "needsInterop": false
+    },
+    "vuetify/directives": {
+      "src": "../../node_modules/vuetify/lib/directives/index.mjs",
+      "file": "vuetify_directives.js",
+      "fileHash": "5904acb1",
+      "needsInterop": false
+    },
+    "vuetify/iconsets/mdi": {
+      "src": "../../node_modules/vuetify/lib/iconsets/mdi.mjs",
+      "file": "vuetify_iconsets_mdi.js",
+      "fileHash": "73222999",
+      "needsInterop": false
+    },
+    "vue-router": {
+      "src": "../../node_modules/vue-router/dist/vue-router.mjs",
+      "file": "vue-router.js",
+      "fileHash": "3b4fed11",
+      "needsInterop": false
+    },
+    "firebase/app": {
+      "src": "../../node_modules/firebase/app/dist/esm/index.esm.js",
+      "file": "firebase_app.js",
+      "fileHash": "57b8ce49",
+      "needsInterop": false
+    },
+    "firebase/analytics": {
+      "src": "../../node_modules/firebase/analytics/dist/esm/index.esm.js",
+      "file": "firebase_analytics.js",
+      "fileHash": "fccd502a",
+      "needsInterop": false
+    },
+    "firebase/firestore": {
+      "src": "../../node_modules/firebase/firestore/dist/esm/index.esm.js",
+      "file": "firebase_firestore.js",
+      "fileHash": "48ec93db",
+      "needsInterop": false
+    },
+    "firebase/auth": {
+      "src": "../../node_modules/firebase/auth/dist/esm/index.esm.js",
+      "file": "firebase_auth.js",
+      "fileHash": "fb08ee1c",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-6VWIASU4": {
+      "file": "chunk-6VWIASU4.js"
+    },
+    "chunk-AWRFORTF": {
+      "file": "chunk-AWRFORTF.js"
+    },
+    "chunk-5UCWFYD4": {
+      "file": "chunk-5UCWFYD4.js"
+    },
+    "chunk-3URAPOM6": {
+      "file": "chunk-3URAPOM6.js"
+    },
+    "chunk-QNGQRF5U": {
+      "file": "chunk-QNGQRF5U.js"
+    },
+    "chunk-F5U4JFF3": {
+      "file": "chunk-F5U4JFF3.js"
+    }
+  }
+}
