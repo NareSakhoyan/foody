@@ -1,8 +1,8 @@
 import SignUpLogin from '@components/auth/SignUpLogin.vue'
-import Homepage from '@components/Homepage.vue'
+import HomePage from '@components/HomePage.vue'
 
 const routes = [
-  {path: '/', component: Homepage},
+  {path: '/', component: HomePage},
   { path: '/login', component: SignUpLogin },
 ]
 
