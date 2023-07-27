@@ -27,7 +27,7 @@ const app = createApp(App)
 app.use(router)
 
 // Now the app has started!
-console.log(firebaseApp);
+console.log(firebaseApp)
 
 app.use(vuetify)
 app.mount('#app')
