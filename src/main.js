@@ -7,10 +7,9 @@ import { createVuetify } from 'vuetify'
 import * as components from 'vuetify/components'
 import * as directives from 'vuetify/directives'
 import * as icons from 'vuetify/iconsets/mdi'
-import { createRouter, createWebHistory } from 'vue-router'
 
 import { firebaseApp } from './firebase.js'
-import routes from './routes'
+import router from './router'
 
 const vuetify = createVuetify({
   components,
@@ -18,16 +17,11 @@ const vuetify = createVuetify({
   icons
 })
 
-const router = createRouter({
-  history: createWebHistory(import.meta.env.VITE_APP_BASE_PATH),
-  routes
-})
-
 const app = createApp(App)
 app.use(router)
+app.use(vuetify)
 
 // Now the app has started!
-console.log(firebaseApp)
+console.log('firebaseApp: ', firebaseApp)
 
-app.use(vuetify)
 app.mount('#app')
